@@ -175,6 +175,95 @@ The GraphQL schema for NewsLaravelGraphQL defines the types, queries, and mutati
 | Query    | `userFavoriteStats`   | Retrieve favorite statistics for a user.   | `userFavoriteStats(userId: 123) { id, username, totalFavorites, favoriteTags }`                         |
 | Query    | `userReviewStats`     | Retrieve review statistics for a user.    | `userReviewStats(userId: 123) { id, username, totalReviews, averageRating }`                            |
 
+# Database Schema
+
+## Tables
+
+### articles
+- id: INTEGER (Primary Key)
+- title: STRING
+- content: TEXT
+- author_id: INTEGER (Foreign Key references authors)
+- category_id: INTEGER (Foreign Key references categories)
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### authors
+- id: INTEGER (Primary Key)
+- name: STRING
+- bio: TEXT
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### categories
+- id: INTEGER (Primary Key)
+- name: STRING
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### comments
+- id: INTEGER (Primary Key)
+- content: TEXT
+- user_id: INTEGER (Foreign Key references users)
+- article_id: INTEGER (Foreign Key references articles)
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### tags
+- id: INTEGER (Primary Key)
+- name: STRING
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### article_tag
+- article_id: INTEGER (Foreign Key references articles)
+- tag_id: INTEGER (Foreign Key references tags)
+
+### ratings
+- id: INTEGER (Primary Key)
+- user_id: INTEGER (Foreign Key references users)
+- article_id: INTEGER (Foreign Key references articles)
+- rating: FLOAT
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### bookmarks
+- id: INTEGER (Primary Key)
+- user_id: INTEGER (Foreign Key references users)
+- article_id: INTEGER (Foreign Key references articles)
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### users
+- id: INTEGER (Primary Key)
+- username: STRING
+- email: STRING
+- password: STRING
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### user_role
+- user_id: INTEGER (Foreign Key references users)
+- role_id: INTEGER (Foreign Key references roles)
+
+### roles
+- id: INTEGER (Primary Key)
+- name: STRING
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+### role_permission
+- role_id: INTEGER (Foreign Key references roles)
+- permission_id: INTEGER (Foreign Key references permissions)
+
+### permissions
+- id: INTEGER (Primary Key)
+- action: STRING
+- created_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+And many more...
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. See CONTRIBUTING.md for more information.
