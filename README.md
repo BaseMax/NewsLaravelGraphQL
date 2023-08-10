@@ -175,9 +175,7 @@ The GraphQL schema for NewsLaravelGraphQL defines the types, queries, and mutati
 | Query    | `userFavoriteStats`   | Retrieve favorite statistics for a user.   | `userFavoriteStats(userId: 123) { id, username, totalFavorites, favoriteTags }`                         |
 | Query    | `userReviewStats`     | Retrieve review statistics for a user.    | `userReviewStats(userId: 123) { id, username, totalReviews, averageRating }`                            |
 
-# Database Schema
-
-## Tables
+## Database Schema
 
 ### articles
 - id: INTEGER (Primary Key)
@@ -234,31 +232,21 @@ The GraphQL schema for NewsLaravelGraphQL defines the types, queries, and mutati
 - created_at: TIMESTAMP
 - updated_at: TIMESTAMP
 
-### users
+### reviews
 - id: INTEGER (Primary Key)
-- username: STRING
-- email: STRING
-- password: STRING
-- created_at: TIMESTAMP
-- updated_at: TIMESTAMP
-
-### user_role
+- content: TEXT
 - user_id: INTEGER (Foreign Key references users)
-- role_id: INTEGER (Foreign Key references roles)
-
-### roles
-- id: INTEGER (Primary Key)
-- name: STRING
+- article_id: INTEGER (Foreign Key references articles)
+- rating: FLOAT
 - created_at: TIMESTAMP
 - updated_at: TIMESTAMP
 
-### role_permission
-- role_id: INTEGER (Foreign Key references roles)
-- permission_id: INTEGER (Foreign Key references permissions)
-
-### permissions
+### advertisements
 - id: INTEGER (Primary Key)
-- action: STRING
+- title: STRING
+- link: STRING
+- clicks: INTEGER
+- impressions: INTEGER
 - created_at: TIMESTAMP
 - updated_at: TIMESTAMP
 
