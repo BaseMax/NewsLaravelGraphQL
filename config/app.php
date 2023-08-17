@@ -168,6 +168,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        // \Nuwave\Lighthouse\LighthouseServiceProvider::class,
+        // \Nuwave\Lighthouse\Subscriptions\SubscriptionServiceProvider::class,
     ])->toArray(),
 
     /*

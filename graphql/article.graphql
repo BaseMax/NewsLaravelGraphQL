@@ -1,3 +1,10 @@
 extend type Query {
-    # articles
+    articles: [Article]! @all
+    article(id: ID! @eq): Article @find
+}
+
+extend type Mutation {
+    createArticle(title: String!, content: String!, authorId: ID!, categoryId: ID!): Article
+    updateArticle(id: ID! @eq, title: String, content: String): Article @update
+    deleteArticle(id: ID! @eq): Article @delete
 }

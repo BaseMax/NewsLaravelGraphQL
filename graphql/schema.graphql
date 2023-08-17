@@ -1,1 +1,4 @@
+#import types.graphql
 #import article.graphql
+#import category.graphql
+#import author.graphql
