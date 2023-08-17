@@ -1,11 +1,15 @@
 extend type Query {
     articles: [Article]! @all
     article(id: ID! @eq): Article @find
-    searchArticles(keyword: String!): [Article]! 
+    searchArticles(keyword: String!): [Article]!
+    topArticles(limit: Int): [Article]!
+    recentArticles(limit: Int): [Article]!
+    mostCommented(limit: Int): [Article]!
 }
 
 extend type Mutation {
     createArticle(title: String!, content: String!, authorId: ID!, categoryId: ID!): Article
     updateArticle(id: ID! @eq, title: String, content: String): Article @update
     deleteArticle(id: ID! @eq): Article @delete
+    rateArticle(articleId:ID!, userId: ID!, rating: Int!): Rating
 }
