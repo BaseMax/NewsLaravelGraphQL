@@ -250,6 +250,81 @@ The GraphQL schema for NewsLaravelGraphQL defines the types, queries, and mutati
 
 And many more...
 
+## Examples:
+
+![Screenshot from 2023-08-17 17-19-58](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/55da716d-ae3c-45fd-9151-896b90ccc13b)
+
+![Screenshot from 2023-08-17 17-20-30](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/55b8487f-759a-411e-acb9-e7501f6136c1)
+
+![Screenshot from 2023-08-17 17-23-16](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/40bc0dff-2543-402b-baf8-32777b9098a6)
+
+![Screenshot from 2023-08-17 17-24-17](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/6f18964e-594b-4394-a776-ffbb06fd2715)
+
+![Screenshot from 2023-08-17 17-26-59](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/86590a9e-d615-44fb-8085-7b39ba7a58f5)
+
+![Screenshot from 2023-08-17 17-33-48](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/85a40ec1-13d7-4d14-a9bd-28eb0611e5ca)
+
+![Screenshot from 2023-08-17 17-59-27](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/cb9191b3-dbe4-44a5-9c5b-dd5da1b1a71e)
+
+![Screenshot from 2023-08-17 18-00-27](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/3d01466f-0277-4531-879b-9033567c1c2b)
+
+![Screenshot from 2023-08-17 18-02-34](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/d29bc561-0421-4281-8fa1-2c1d598c8024)
+
+![Screenshot from 2023-08-17 18-02-47](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/7451f8ab-83b5-49b6-ac62-e92359eea8f5)
+
+![Screenshot from 2023-08-17 18-04-27](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/bac1e47e-d900-4679-a68e-8cc07986197b)
+
+![Screenshot from 2023-08-17 18-06-26](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/2a38feee-ae8e-4567-af0d-23b86287b4b9)
+
+![Screenshot from 2023-08-17 18-14-09](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/9abbc642-28f1-4d58-8db4-612af9aa8d27)
+
+![Screenshot from 2023-08-17 18-17-21](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/9c5da0e4-4d9b-4561-b05d-fa4bc2e5f928)
+
+![Screenshot from 2023-08-17 18-19-41](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/53e09330-3c98-476d-a28d-a726b3701dd0)
+
+![Screenshot from 2023-08-17 18-35-47](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/b2b9c0b7-01d4-4270-bc7f-5cb7dac6a09b)
+
+![Screenshot from 2023-08-17 18-42-54](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/f6835f42-d583-4046-8340-7ec03f9c20c4)
+
+![Screenshot from 2023-08-17 18-43-28](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/5a072846-cc28-45c9-8ad0-9d603901bd98)
+
+![Screenshot from 2023-08-17 19-59-27](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/88979f90-2364-4a63-ba31-ee88465ca014)
+
+![Screenshot from 2023-08-17 20-00-19](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/621a1a4d-cbf9-4824-97cc-eedc13e9dece)
+
+![Screenshot from 2023-08-17 20-00-30](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/cc2ad1b3-02cf-4efa-837b-f7faf2c521bc)
+
+![Screenshot from 2023-08-17 20-05-25](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/eb5b1c6b-5d89-45b7-bf3a-9ce5564b8bc2)
+
+![Screenshot from 2023-08-17 20-05-35](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/f4dc2b0a-2dd8-4f46-a764-02fe76796607)
+
+![Screenshot from 2023-08-17 20-06-01](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/a5e65cce-8baa-4ea3-90be-29d17db3fd38)
+
+![Screenshot from 2023-08-17 20-09-24](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/2735c233-b2f0-4fa0-8479-b132a23de1c4)
+
+![Screenshot from 2023-08-17 20-20-33](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/e26ab53e-3a28-4782-af74-11dda186e19d)
+
+![Screenshot from 2023-08-17 20-26-47](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/de7ba3b1-3b1c-40ca-b042-26cf8319e226)
+
+![Screenshot from 2023-08-17 20-27-25](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/076f072d-89c9-4411-8806-5bbc39b0a4d9)
+
+![Screenshot from 2023-08-17 20-31-33](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/d82a2072-0140-4807-8513-688bfed88f57)
+
+![Screenshot from 2023-08-17 20-31-40](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/4c0b2a18-e09c-40df-8fbf-21d6f681db80)
+
+![Screenshot from 2023-08-17 20-43-16](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/ba2d6cbc-3622-4fbe-8bb2-fc1d2404f33f)
+
+![Screenshot from 2023-08-17 20-44-00](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/a6417dca-f85f-4469-9d85-ba6c7aebc137)
+
+![Screenshot from 2023-08-17 20-53-15](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/7993ae58-9e7a-4c39-be2d-304f223547ec)
+
+![Screenshot from 2023-08-17 20-54-51](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/080b71cd-9c58-458b-9500-7ded17d63b6d)
+
+![Screenshot from 2023-08-17 20-59-55](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/2728fb86-2eef-4d35-b23e-fa520935806a)
+
+![Screenshot from 2023-08-17 21-02-58](https://github.com/BaseMax/NewsLaravelGraphQL/assets/107758775/63c668d2-b962-47f8-a2f8-0611239ac246)
+
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. See CONTRIBUTING.md for more information.
