@@ -1,0 +1,9 @@
+extend type Query {
+    comments: [Comment]! @all
+}
+
+extend type Mutation {
+    createComment(articleId: ID!, userId: ID!, content: String!): Comment
+    updateComment(id: ID! @eq, content: String!): Comment @update
+    deleteComment(id: ID! @eq): Comment @delete
+}

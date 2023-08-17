@@ -1,3 +1,10 @@
 extend type Query {
     authors: [Author]! @all
+    author(id: ID! @eq): Author @find
+}
+
+extend type Mutation {
+    createAuthor(name: String!, bio: String!): Author @create
+    updateAuthor(id: ID! @eq, name: String, bio: String): Author @update
+    deleteAuthor(id: ID! @eq): Author @delete
 }

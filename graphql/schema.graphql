@@ -2,3 +2,4 @@
 #import article.graphql
 #import category.graphql
 #import author.graphql
+#import comment.graphql
