@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('advertisements', function (Blueprint $table) {
             $table->id();
+            $table->string("title");
+            $table->string("link");
+            $table->integer("click")->default(0);
+            $table->integer("impressions");
             $table->timestamps();
         });
     }
