@@ -1,0 +1,116 @@
+type User {
+    id: ID!
+    name: String!
+    email: String!
+    password: String!
+    created_at: String
+    updated_at: String
+    comments: [Comment]! @hasMany
+    rates: [Rating]! @hasMany
+    bookmarks: [Bookmark]! @hasMany
+    reviews: [Review]! @hasMany
+    notifications: [Notification]! @hasMany
+    subscriptions: [Subscription]! @hasMany
+}
+
+type Author {
+    id: ID!
+    name: String!
+    bio: String!
+    created_at: String
+    updated_at: String
+    articles: [Article]! @hasMany
+}
+
+type Article {
+    id: ID!
+    title: String!
+    content: String!
+    author: Author! @belongsTo
+    category: Category! @belongsTo
+    created_at: String
+    updated_at: String
+    comments: [Comment]! @hasMany
+    tags: [Tag]! @belongsToMany(relation: "tags")
+    rates: [Rating]! @hasMany
+    bookmarks: [Bookmark]! @hasMany
+    reviews: [Review]! @hasMany
+}
+
+type Category {
+    id: ID!
+    name: String!
+    created_at: String
+    updated_at: String
+    articles: [Article]! @hasMany
+}
+
+type Comment {
+    id: ID!
+    content: String!
+    user: User! @belongsTo
+    article: Article! @belongsTo
+    created_at: String
+    updated_at: String
+}
+
+type Tag {
+    id: ID!
+    name: String!
+    created_at: String
+    updated_at: String
+    articles: [Article]! @belongsToMany(relation: "articles")
+}
+
+type Rating {
+    id: ID!
+    user: User! @belongsTo
+    article: Article! @belongsTo
+    rating: Int!
+    created_at: String
+    updated_at: String
+}
+
+type Bookmark {
+    id: ID!
+    user: User! @belongsTo
+    article: Article! @belongsTo
+    created_at: String
+    updated_at: String
+}
+
+type Review {
+    id: ID!
+    content: String!
+    user: User! @belongsTo
+    article: Article! @belongsTo
+    rating: Int!
+    created_at: String
+    updated_at: String
+}
+
+type Advertisement {
+    id: ID!
+    title: String!
+    link: String!
+    clicks: Int!
+    impressions: Int!
+    created_at: String
+    updated_at: String
+}
+
+type Notification {
+    id: ID!
+    content: String!
+    user: User! @belongsTo
+    isRead: Boolean!
+    created_at: String
+    updated_at: String
+}
+
+type Subscription {
+    id: ID!
+    user: User! @belongsTo
+    created_at: String
+    updated_at: String
+}

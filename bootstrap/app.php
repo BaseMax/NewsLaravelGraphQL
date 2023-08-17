@@ -41,6 +41,13 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+// $app->register(\Nuwave\Lighthouse\Pagination\PaginationServiceProvider::class);
+// $app->register(\Nuwave\Lighthouse\Validation\ValidationServiceProvider::class);
+
+
+// $app->configure('lighthouse');
+// $app->register(\Nuwave\Lighthouse\LighthouseServiceProvider::class);
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

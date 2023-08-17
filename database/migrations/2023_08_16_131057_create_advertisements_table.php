@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string("title");
             $table->string("link");
             $table->integer("click")->default(0);
-            $table->integer("impressions");
+            $table->integer("impressions")->default(0);
             $table->timestamps();
         });
     }
