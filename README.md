@@ -30,14 +30,12 @@ Before you begin, ensure you have the following installed:
 - Clone the repository: `git clone https://github.com/BaseMax/NewsLaravelGraphQL.git`
 - Navigate to the project directory: `cd NewsLaravelGraphQL`
 - Install PHP dependencies: `composer install`
-- Install JavaScript dependencies: `npm install`
 
 ## Configuration
 
 - Rename the `.env.example` file to `.env` and configure your database settings.
 - Generate an application key: `php artisan key:generate`
 - Run database migrations: `php artisan migrate`
-- Seed the database with sample data: `php artisan db:seed`
 
 ## Usage
 
@@ -47,7 +45,7 @@ To start the development server, run:
 php artisan serve
 ```
 
-Visit `http://127.0.0.1:8000/graphql` in your browser to access the GraphQL Playground. Here, you can explore the available queries and mutations, and interact with the API.
+Visit `http://127.0.0.1:8000/graphiql` in your browser to access the GraphQL Playground. Here, you can explore the available queries and mutations, and interact with the API.
 
 ## GraphQL Schema
 
