@@ -1,0 +1,8 @@
+extend type Query {
+    notifications(userId: ID!): [Notification]!
+}
+
+extend type Mutation {
+    markAsRead(notificationId: ID!): Notification
+    markAllAsRead(userId: ID!): [Notification]!
+}

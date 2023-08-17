@@ -3,3 +3,8 @@
 #import category.graphql
 #import author.graphql
 #import comment.graphql
+#import bookmark.graphql
+#import user.graphql
+#import notification.graphql
+#import tag.graphql
+#import advertisement.graphql

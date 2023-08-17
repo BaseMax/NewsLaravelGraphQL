@@ -1,5 +1,6 @@
 extend type Query {
     comments: [Comment]! @all
+    comment(id: ID! @eq): Comment @find
 }
 
 extend type Mutation {

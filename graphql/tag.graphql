@@ -1,0 +1,5 @@
+extend type Mutation {
+    createTag(name: String!): Tag! @create
+    updateTag(id: ID! @eq, name: String!): Tag @update
+    deleteTag(id: ID! @eq): Tag @delete
+}

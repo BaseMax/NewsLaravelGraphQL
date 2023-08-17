@@ -1,0 +1,4 @@
+extend type Query {
+    allAdvertisements: [Advertisement]! @all
+    advertisement(id: ID! @eq): Advertisement @find
+}

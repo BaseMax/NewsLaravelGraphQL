@@ -1,0 +1,5 @@
+extend type Mutation {
+    addBookmark(userId: ID!, articleId: ID!): Bookmark
+    removeBookmark(id: ID! @eq): Bookmark @delete
+    userBookmarks(userId: ID!): [Bookmark]!
+}
