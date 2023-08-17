@@ -1,6 +1,7 @@
 extend type Query {
     categories: [Category]! @all
     category(id: ID!): Category @find
+    searchCategories(keyword: String!): [Category]!
 }
 
 extend type Mutation {

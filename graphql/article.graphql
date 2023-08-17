@@ -1,6 +1,7 @@
 extend type Query {
     articles: [Article]! @all
     article(id: ID! @eq): Article @find
+    searchArticles(keyword: String!): [Article]! 
 }
 
 extend type Mutation {

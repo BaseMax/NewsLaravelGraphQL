@@ -1,6 +1,7 @@
 extend type Query {
     authors: [Author]! @all
     author(id: ID! @eq): Author @find
+    searchAuthors(keyword: String!): [Author]!
 }
 
 extend type Mutation {
